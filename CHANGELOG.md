@@ -1,4 +1,4 @@
-**3.7.2.a**
+**3.7.2.1**
 **3.7.2** (June 19, 2018)
 
 * Security release for [CVE-2018-3760](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3760).
