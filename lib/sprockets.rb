@@ -35,7 +35,7 @@ module Sprockets
     root: File.expand_path('..', __FILE__).freeze,
     transformers: Hash.new { |h, k| {}.freeze }.freeze,
     version: "",
-    gzip_enabled: true
+    gzip_enabled: false
   }.freeze
   self.computed_config = {}
 
