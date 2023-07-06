@@ -73,12 +73,14 @@ module Sprockets
 
     # Public: Checks if Gzip is enabled.
     def gzip?
-      config[:gzip_enabled]
+      # config[:gzip_enabled]
+      false
     end
 
     # Public: Checks if Gzip is disabled.
     def skip_gzip?
-      !gzip?
+      # !gzip?
+      true
     end
 
     # Public: Enable or disable the creation of Gzip files.
